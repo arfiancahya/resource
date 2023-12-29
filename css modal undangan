@@ -1,0 +1,45 @@
+.modal {
+  z-index: 999;
+ position: fixed;
+  top: 0;
+  width: 100%; /* Full width */
+
+ height: 100vh;
+  padding: 24px 18px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(0%); /* Start position off-screen */
+      transition: all 0.5s ease-out; /* Add transition for smooth animation */
+}
+
+body {
+  overflow-y: hidden;
+}
+
+    .custom-button {
+      display: flex;
+      align-items: center;
+      padding: 8px 20px;
+      background-color: #FFC700;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+          justify-content: center;
+    }
+
+    .custom-button:hover {
+
+      background-color: #d5a704;
+      color: #fff;
+
+    }
+
+    .custom-button span {
+      margin: 0;
+      margin-right: 10px; /* Jarak opsional antara ikon dan teks */
+    }
+
+.modal .et_pb_row_9 {
+    overflow-y: auto;
+}
